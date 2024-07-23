@@ -33,7 +33,7 @@
   --fonte-android: "Android", cursive;
 }
 * {
-  /* Seletor global representado por asterisco aplicado para zerar todas as margens e preenchimentos */
+  /* Seletor global representado por asterisco(*) aplicado para zerar todas as margens e preenchimentos */
   margin: 0px;
   padding: 0px;
 }
@@ -48,14 +48,14 @@ a.externo::after {
 }
 
 main p {
-  /* Por ter zerado o margin e padding de toda a pagina, é necessário configurar esses elementos em cada parte desejada. */
-  /* Ao não utilizar o (>) children, indicará que o objeto pode estar em qualquer lugar dentro do parametro principal(ex. main) */
+  /* Por ter zerado o margin e padding de toda a página, é necessário configurar esses elementos em cada parte desejada. */
+  /* Ao não utilizar o Direct (>) children, indicará que o objeto pode estar em qualquer lugar dentro do parametro principal(ex. main) */
   margin: 15px 0px;
   text-align: justify;
 }
 
 header {
-  background-image: linear-gradient(to bottom, var(--cor3), var (--cor5));
+  background-image: linear-gradient(45deg, var(--cor3), var (--cor5));
   background-color: var(--cor4);
   min-height: 150px;
   padding-top: 40px;
